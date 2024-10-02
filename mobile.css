@@ -1,0 +1,234 @@
+body {
+  line-height: 1.3;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+p {
+  line-height: 1.3;
+  font-size: 12px;
+}
+
+#navBar {
+  font-weight: 400;
+}
+
+#navBar li{
+  font-size: 12px;
+}
+
+#navBar select{
+  font-weight: 200;
+  font-size: 14px;
+  padding-left: 0;
+}
+
+#navBar li{
+  border-left: none ;
+}
+
+li a {
+  text-align: center;
+  padding: 0;
+  text-decoration: none;
+}
+
+#home-page #trip {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  grid-gap: 10px;
+  margin-bottom: 10px;
+}
+
+#main {
+  max-width: 450px;
+  margin: auto;
+  margin-top: 80px;
+}
+#main h1 {
+  margin-bottom: 20px;
+  font-size: 20px;
+  line-height: 1.4;
+  font-weight: 600;
+  color: white;
+}
+
+#main img {
+  width: 15px;
+}
+
+.log-item {
+  display: flex;
+  cursor: pointer;
+  background: #8090eb;
+  border-radius: 5px 5px 0 0;
+  padding: 10px 5px;
+  margin-right: 10px;
+}
+
+#service-div {
+  width: 400px;
+  height: auto;
+}
+
+#servises {
+  flex-direction: column;
+}
+
+.service {
+  width: 100%;
+  box-shadow: 0 4px 70px rgba(0, 0, 0, 0.2);
+}
+
+#explore {
+  height: 60vh;
+  width: 450px;
+  margin-top: 70px;
+}
+
+#grid-container {
+  grid-gap: 10px;
+  padding: 0;
+}
+
+#grid-container #grid1 {
+  height: auto;
+}
+
+#our-story {
+  height: 50vh;
+  width: 450px;
+  border-radius: 8px;
+}
+
+#loyalty-program {
+  display: flex;
+  height: auto;
+  width: 400px;
+  margin: 40px auto;
+  background: white;
+  border-radius: 10px;
+}
+
+#loyalty-program #loyal-img {
+  display: none;
+}
+
+#loyalty-program #loyal-btn {
+  background: white;
+  color: blue;
+  padding: 15px 20px;
+  border: 1px solid blue;
+  border-radius: 5px;
+}
+
+#join {
+  padding: 30px 20px 30px 90px;
+  text-align: center;
+}
+
+#update {
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+}
+
+#mobile-app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  width: 400px;
+  padding: 15px;
+  text-align: center;
+}
+
+#mobile-app #phone {
+  display: none;
+}
+
+#mobile-app .get {
+  padding: 10px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+#contacts {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  width: 100%;
+  max-width: 400px;
+}
+
+footer{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  width: 400px;
+  margin: auto;
+  padding: 20px 0;
+  text-align: center;
+}
+
+#section {
+  position: relative;
+  display: inline-block;
+}
+
+#section a{
+  display: block;
+  text-decoration: none;
+  color: white;
+}
+
+#section #dropdown{
+  display: block;
+}
+
+#dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #4d4a4a1a;
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  padding: 0;
+  cursor: pointer;
+}
+
+#dropdown-content li {
+  float: none;
+}
+
+#dropdown-content a {
+  color: black;
+  padding: 6px 2px;
+  text-decoration: none;
+  display: block;
+  font-size: 14px;
+  border-bottom: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+#dropdown-content li:last-child a {
+  border-bottom: none;
+}
+
+#dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+#section:hover #dropdown-content {
+  display: block;
+}
+
+#dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
+#dropdown-content li a:hover {
+  background-color: #ddd;
+}

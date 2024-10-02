@@ -1,0 +1,532 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  background: rgb(243, 241, 241);
+  color: white;
+  line-height: 1.5;
+}
+
+.blue-btn {
+  color: blue;
+  background: none;
+  border: none;
+}
+
+.blue-bg {
+  background: blue;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+}
+
+#home {
+  background: url("./img/plane.jpg") no-repeat center center/cover;
+  height: 100vh;
+}
+
+#service-div h2,
+h2,
+#updates h3 {
+  text-align: center;
+  color: red;
+}
+
+#navBar h1, #contact h1{
+  background: linear-gradient(90deg, #e63f1a, #195fa5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    font-weight: bold; 
+}
+
+h2{
+  margin-bottom: 30px;
+  font-weight: 800;
+}
+
+h3 {
+  color: red;
+  font-weight: bolder;
+}
+
+p {
+  line-height: 25px;
+  font-size: 15px;
+}
+
+span {
+  color: blue;
+}
+
+#navBar {
+  height: 60px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-weight: 600;
+}
+
+#section #dropdown{
+  display: none;
+}
+
+#navBar select{
+  background: none ;
+  color: white;
+  border: none;
+  font-weight: 600;
+  padding-left: 10px;
+  border-left: 1px solid rgb(238, 235, 235);
+}
+
+#navBar select option {
+  background-color: white; 
+  color: black; 
+  padding: 10px; 
+}
+
+#navBar li{
+  border-left: 1px solid rgb(226, 224, 224) ;
+}
+
+#navBar #one{
+  border: none;
+}
+
+#dropdown {
+  display: block;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 0 16px;
+  text-decoration: none;
+}
+
+#main {
+  max-width: 800px;
+  margin: auto;
+  margin-top: 140px;
+}
+#main h1 {
+  margin-bottom: 20px;
+  font-size: 30px;
+  line-height: 1.4;
+  font-weight: 900;
+  color: white;
+}
+
+#main img {
+  width: 20px;
+}
+
+#main #log {
+  display: flex;
+}
+
+.log-item {
+  display: flex;
+  cursor: pointer;
+  background: #8090eb;
+  border-radius: 5px 5px 0 0;
+  padding: 20px 30px;
+  margin-right: 10px;
+}
+
+.log-item img {
+  margin-right: 5px;
+}
+
+#book {
+  background: white;
+  color: red;
+}
+
+input[type="radio"]{
+  margin-right: 5px;
+}
+
+label[for="radio"]{
+   margin-right: 20px;
+}
+
+input[type="date"], select {
+  background: #f9f9f9;
+  border: none;
+  font-size: 14px;
+}
+
+#home-page {
+  padding: 20px;
+  background: white;
+  color: black;
+  border-radius: 0 8px 8px 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+#home-page #trip-type {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+#home-page #trip {
+  display: flex; 
+  grid-gap: 10px;
+  margin-bottom: 10px;
+}
+
+.trip-item {
+  background: #f9f9f9;
+  padding: 10px 20px;
+  border-radius: 5px;
+  width: 100%;
+}
+
+#home-page #trip button {
+  padding: 10px 20px;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#service-div {
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  width: 1200px;
+  margin: 120px auto 0 auto;
+}
+
+#servises {
+  display: flex;
+}
+
+.service {
+  background: white;
+  color: black;
+  margin: 10px;
+  width: 30%;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 100px rgba(0, 0, 0, 0.2);
+}
+
+ img {
+  width: 30px;
+}
+
+.service button, .news-update button {
+  display: inline-flex;
+    align-items: center;
+    color: blue;
+    padding-top: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.service h4{
+  margin: 20px 0;
+}
+
+#explore {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  width: 1200px;
+  margin: auto;
+}
+
+#explore a{
+  display: inline-flex;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+}
+
+.grid{
+  display: flex;
+    flex-direction: column;
+    justify-content: flex-end;  
+    align-items: flex-start;   
+    padding: 30px; 
+}
+
+.grid h3{
+  color: white;
+}
+
+#grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  grid-gap: 10px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#grid-container #grid1 {
+  background: url("./img/ghana.jpg") no-repeat center center/cover;
+  grid-column: 1;
+  grid-row: 1 / span 2;
+  height: 400px;
+}
+
+#grid2 {
+  background: url("./img/india.jpeg") no-repeat center center/cover;
+}
+
+#grid3 {
+  background: url("./img/south-africa.jpeg") no-repeat center center/cover;
+}
+
+#our-story {
+  display: flex;
+  flex-direction: column;
+  height: 60vh;
+  justify-content: center;
+  align-items: flex-start;
+  width: 1200px;
+  margin: 100px auto;
+  background: url("./img/pilot.jpg") no-repeat center top/cover;
+  border-radius: 10px;
+  padding-left: 50px;
+}
+
+#our-story h2{
+  color: white;
+  text-align: left;
+}
+
+#loyalty-program {
+  display: flex;
+  height: 180px;
+  width: 1200px;
+  margin: 40px auto;
+  background: white;
+  border-radius: 10px;
+}
+
+#loyalty-program #loyal-btn {
+  background: white;
+  color: blue;
+  padding: 15px 20px;
+  border: 1px solid blue;
+  border-radius: 5px;
+}
+#join{
+  padding: 20px 150px 20px 50px; 
+}
+
+#loyalty-program #loyal-img{
+    flex: 1; 
+    background: url("img/pexels-kelly-1179532-28463961.jpg") no-repeat center center/cover;
+    border-radius: 100px 0 0 100px; 
+    height: 100%; 
+}
+
+#sign-up{
+  margin-top: 20px;
+}
+
+#updates {
+  width: 100%;
+  max-width: 1200px; 
+  margin: 100px auto;
+  color: black;
+  padding: 20px;
+}
+
+#update {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px; 
+  border-radius: 10px;
+  margin-top: 30px;
+}
+
+.news-update {
+  display: flex;
+}
+
+.news-update .news-img {
+  width: 200px;
+  border-radius: 5px;
+}
+
+.news-update div {
+  margin: 0 30px ;
+}
+
+#mobile-app {
+  display: grid;
+  grid-template-columns: 500px auto;
+  max-width: 1200px;
+  margin: auto;
+  background: #fce5e5;
+  color: black;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+#mobile-app .get {
+  display: inline-flex;
+  align-items: center;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin: 40px 10px;
+  padding: 10px 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background: blue;
+  color: white;
+  text-align: center;
+}
+
+#download{
+  padding: 20px 20px 20px 50px;
+}
+
+#mobile-app #phone-div{
+  display: flex;            
+  justify-content: center;     
+  align-items: center;         
+  height: 100%;    
+}
+
+#mobile-app #phone {
+  width: 400px;
+  transform: rotate(-15deg); 
+  /* box-shadow: 10px 10px 5px rgba(247, 185, 185, 0.3); */
+}
+
+#mobile-app #btn {
+  display: flex;
+}
+
+#contact #info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 100px 0 30px 0;
+}
+
+#contact #info h4 {
+  color: red;
+}
+
+#contact button {
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+  margin: 20px auto;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background: red;
+  color: white;
+  text-align: center;
+}
+
+#contacts {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 1100px;
+  margin: 30px auto;
+  padding-top: 50px;
+  color: black;
+  font-size: 14px;
+  gap: 20px;
+  border-top: 1px solid rgb(224, 221, 221);
+}
+
+.our-contact {
+  flex: 1;
+  min-width: 200px;
+}
+
+#contacts #get {
+  cursor: pointer;
+  display: flex;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background: black;
+  color: white;
+  padding: 10px;
+  margin-left: 0;
+  margin-bottom: 10px;
+}
+
+#contacts img {
+  width: 25px;
+}
+
+#contact li {
+  float: none;
+}
+
+#contact p{
+  font-size: 12px;
+}
+
+#contact li a {
+  color: black;
+  padding: 5px 0;
+  text-align: left;
+}
+
+.address {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.address img {
+  width: 20px;
+  margin-right: 10px;
+}
+
+footer{
+  display: flex;
+  justify-content: space-between;
+  width: 1100px;
+  height: auto;
+  margin: auto;
+  color: black;
+  padding: 20px 0;
+  border-top: 1px solid rgb(224, 221, 221);
+}
+
+footer img{
+  width: 25px;
+  margin: 0 10px;
+  color: red;
+}
