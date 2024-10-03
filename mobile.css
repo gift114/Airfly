@@ -98,7 +98,7 @@ li a {
   display: grid;
   height: auto;
   width: 400px;
-  margin-top: 70px auto o auto;
+  margin-top: 80px;
 }
 
 #grid-container #grid1{
@@ -202,7 +202,7 @@ li a {
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   width: 90%;
   max-width: 350px;
-
+  line-height: 1.1;
   margin: 30px auto;
   padding-top: 50px;
   font-size: 14px;
@@ -212,10 +212,24 @@ li a {
   padding: 20px;
 }
 
+#contacts #get {
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+  margin: 20px auto;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background: black;
+  color: white;
+  text-align: center;
+}
+
 footer{
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  width: 400px;
+  width: 350px;
   margin: auto;
   padding: 20px 0;
   text-align: center;
