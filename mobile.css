@@ -54,7 +54,7 @@ li a {
 }
 
 #main {
-  max-width: 450px;
+  max-width: 400px;
   margin: auto;
   margin-top: 80px;
 }
@@ -95,7 +95,7 @@ li a {
 
 #explore {
   height: 60vh;
-  width: 450px;
+  width: 400px;
   margin-top: 70px;
 }
 
@@ -110,7 +110,7 @@ li a {
 
 #our-story {
   height: 50vh;
-  width: 450px;
+  width: 400px;
   border-radius: 8px;
 }
 
