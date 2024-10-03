@@ -96,7 +96,7 @@ li a {
 
 #explore {
   display: grid;
-  grid-template-rows: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   height: 60vh;
   width: 400px;
   margin-top: 70px auto o auto;
@@ -107,12 +107,12 @@ li a {
   padding: 0;
 }
 
-/* #grid-container #grid1 {
+#grid-container #grid1 {
   height: auto;
-} */
+} 
 
 #our-story {
-  height: 50vh;
+  height: 40vh;
   width: 350px;
   border-radius: 8px;
   margin: auto;
