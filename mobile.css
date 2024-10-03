@@ -91,12 +91,15 @@ li a {
 .service {
   width: 70%;
   box-shadow: 0 4px 70px rgba(0, 0, 0, 0.2);
+  margin: auto;
 }
 
 #explore {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   height: 60vh;
   width: 400px;
-  margin-top: 70px;
+  margin-top: 70px auto o auto;
 }
 
 #grid-container {
@@ -104,14 +107,15 @@ li a {
   padding: 0;
 }
 
-#grid-container #grid1 {
+/* #grid-container #grid1 {
   height: auto;
-}
+} */
 
 #our-story {
   height: 50vh;
-  width: 400px;
+  width: 350px;
   border-radius: 8px;
+  margin: auto;
 }
 
 #loyalty-program {
