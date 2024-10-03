@@ -89,14 +89,14 @@ li a {
 }
 
 .service {
-  width: 70%;
+  width: 75%;
   box-shadow: 0 4px 70px rgba(0, 0, 0, 0.2);
-  margin: auto;
+  margin: 10px auto;
 }
 
 #explore {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-rows: repeat(auto-fill, minmax(300px, 1fr));
   height: 60vh;
   width: 400px;
   margin-top: 70px auto o auto;
