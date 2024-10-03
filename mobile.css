@@ -107,8 +107,11 @@ li a {
 }
 
 #grid-container {
+  width: 350px;
+  height: 400px;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   padding: 10px;
+  margin: 20px auto;
 }
 
 #grid-container #grid1 {
@@ -119,7 +122,7 @@ li a {
   height: 40vh;
   width: 350px;
   border-radius: 8px;
-  margin: auto;
+  margin: 20px auto;
 }
 
 #loyalty-program {
