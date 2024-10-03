@@ -56,7 +56,7 @@ li a {
 #main {
   max-width: 350px;
   margin: auto;
-  margin-top: 80px;
+  margin-top: 100px;
 }
 #main h1 {
   margin-bottom: 20px;
@@ -71,16 +71,13 @@ li a {
 }
 
 .log-item {
-  display: flex;
-  cursor: pointer;
-  background: #8090eb;
-  border-radius: 5px 5px 0 0;
+  flex-direction: column;
   padding: 10px 5px;
-  margin-right: 10px;
+  align-items: center;
 }
 
 #service-div {
-  width: 400px;
+  width: auto;
   height: auto;
 }
 
