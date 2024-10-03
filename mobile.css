@@ -108,10 +108,10 @@ li a {
 
 #grid-container {
   width: 350px;
-  height: 400px;
+  height: 600px;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   padding: 10px;
-  margin: 20px auto;
+  margin: 30px auto;
 }
 
 #grid-container #grid1 {
@@ -122,14 +122,14 @@ li a {
   height: 40vh;
   width: 350px;
   border-radius: 8px;
-  margin: 20px auto;
+  margin: 30px auto;
 }
 
 #loyalty-program {
   display: flex;
   height: auto;
-  width: 400px;
-  margin: 40px auto;
+  width: 300px;
+  margin: 60px auto;
   background: white;
   border-radius: 10px;
 }
@@ -151,8 +151,17 @@ li a {
   text-align: center;
 }
 
+#updates {
+  width: 80%;
+  max-width: 400px; 
+}
+
 #update {
   grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+}
+
+.news-update{
+  flex-direction: column;
 }
 
 #mobile-app {
