@@ -199,9 +199,17 @@ li a {
 
 #contacts {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-  width: 100%;
-  max-width: 400px;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  width: 90%;
+  max-width: 350px;
+
+  margin: 30px auto;
+  padding-top: 50px;
+  font-size: 14px;
+}
+
+#download{
+  padding: 20px;
 }
 
 footer{

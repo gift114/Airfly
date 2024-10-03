@@ -421,7 +421,6 @@ input[type="date"], select {
 #mobile-app #phone {
   width: 400px;
   transform: rotate(-15deg); 
-  /* box-shadow: 10px 10px 5px rgba(247, 185, 185, 0.3); */
 }
 
 #mobile-app #btn {
@@ -472,7 +471,7 @@ input[type="date"], select {
   min-width: 200px;
 }
 
-#contacts #get {
+#contacts .get {
   cursor: pointer;
   display: flex;
   font-size: 16px;
